@@ -1,0 +1,150 @@
+.RichEditor-root {
+  background: #fff;
+  border: 1px solid #ddd;
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.RichEditor-editor {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  min-height: 200px; /* Adjust height as needed */
+  font-size: 16px;
+}
+
+.RichEditor-editor .public-DraftEditorPlaceholder-root,
+.RichEditor-editor .public-DraftEditor-content {
+  margin: 0 -15px -15px;
+  padding: 15px;
+}
+
+.RichEditor-editor .public-DraftEditor-content {
+  min-height: 100px;
+}
+
+.RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
+  display: none;
+}
+
+.RichEditor-editor .RichEditor-blockquote {
+  border-left: 5px solid #eee;
+  color: #666;
+  font-family: 'Hoefler Text', 'Georgia', serif;
+  font-style: italic;
+  margin: 16px 0;
+  padding: 10px 20px;
+}
+
+.RichEditor-editor h1,
+.RichEditor-editor h2,
+.RichEditor-editor h3,
+.RichEditor-editor h4,
+.RichEditor-editor h5,
+.RichEditor-editor h6 {
+  font-family: 'Arial', sans-serif; /* Change font for headings */
+  font-weight: bold; /* Bold font weight for headings */
+  margin-top: 16px; /* Space above headings */
+  margin-bottom: 8px; /* Space below headings */
+}
+
+.RichEditor-editor .public-DraftStyleDefault-pre {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: 'Inconsolata', 'Menlo', 'Consolas', monospace;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.RichEditor-controls {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+  user-select: none;
+}
+
+.RichEditor-styleButton {
+  color: #999;
+  cursor: pointer;
+  margin-right: 16px;
+  padding: 2px 0;
+  display: inline-block;
+}
+
+.RichEditor-editor a {
+  color: #007bff; /* Blue color for links */
+  text-decoration: underline;
+}
+
+/* Style for lists (ul, ol) within the editor */
+.RichEditor-editor ul,
+.RichEditor-editor ol {
+  margin-left: 20px; /* Adjust the indentation */
+}
+
+/* Style for list items (li) within the editor */
+.RichEditor-editor li {
+  margin-bottom: 5px; /* Space between list items */
+}
+
+.RichEditor-editor code {
+  background-color: #f8f9fa; /* Light gray background for code blocks */
+  font-family: 'Courier New', Courier, monospace; /* Fixed-width font for code */
+  padding: 4px 8px; /* Padding inside code blocks */
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.RichEditor-activeButton {
+  color: #5890ff;
+}
+
+.input-title {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn-submit {
+  background-color: #2a81df;
+  color: #070707;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+.msg-success {
+  color: green;
+  margin-top: 10px;
+}
+
+.msg-error {
+  color: red;
+  margin-top: 10px;
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Gray background for secondary button */
+  color: #fff; /* White text color for secondary button */
+}
+
+.btn-secondary:hover {
+  background-color: #495057; /* Darker gray color on hover */
+}
+
